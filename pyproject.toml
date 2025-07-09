@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sphinx-theme-template"
+version = "0.0.1"
+authors = [{ name = "Kayce Basques", email = "kaycebasques@gmail.com" }]
+description = "A template for projects that will be distributed on PyPI."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "Apache-2.0"
+
+[project.entry-points."sphinx.html_themes"]
+name_of_theme = "sphinx_theme_template"
+
+[project.urls]
+Homepage = "https://github.com/kaycebasques/sphinx-theme-template"
+Issues = "https://github.com/kaycebasques/sphinx-theme-template/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sphinx_theme_template"]

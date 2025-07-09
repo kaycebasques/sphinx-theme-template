@@ -1,0 +1,4 @@
+[theme]
+inherit = "basic"
+stylesheets = ["sphinx-theme-template.css"]
+pygments_style = {default = "default", dark = "monokai"}

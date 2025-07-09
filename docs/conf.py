@@ -1,0 +1,12 @@
+author = "Kayce Basques"
+copyright = f"2025, {author}"
+exclude_patterns = ["venv"]
+extensions = ["sphinx_theme_template"]
+html_extra_path = []
+html_permalinks_icon = "§"
+html_static_path = []
+html_theme = "sphinx-theme-template"
+project = "sphinx-theme-template"
+pygments_style = "github-dark"
+release = "0.0.0"
+templates_path = ["_templates"]
